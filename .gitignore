@@ -1,0 +1,26 @@
+node_modules/
+dist/
+.expo/
+*.hbc
+*.tsbuildinfo
+
+# Server
+starkzap/server/node_modules/
+starkzap/server/wallets.json
+
+# Expo
+starkzap/.expo/
+starkzap/dist/
+starkzap/node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+
+# Large video files (>100MB, exceeds GitHub limit)
+ui-reference/videos/*.MP4
+ui-reference/videos/*.mp4
